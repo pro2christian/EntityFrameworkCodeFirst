@@ -10,6 +10,6 @@ namespace EntityFrameworkCodeFirst
     public class ClienteContext: DbContext
     {
         public DbSet<Cliente> Clientes { get; set;}
-        //public DbSet<Pedido> Pedido { get; set;}
+        public DbSet<Produto> Produto { get; set;}
     }
 }

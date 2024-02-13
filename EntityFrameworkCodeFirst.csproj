@@ -76,8 +76,16 @@
     <Compile Include="Migrations\202402132023206_ClienteCpf.Designer.cs">
       <DependentUpon>202402132023206_ClienteCpf.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202402132033035_Produto.cs" />
+    <Compile Include="Migrations\202402132033035_Produto.Designer.cs">
+      <DependentUpon>202402132033035_Produto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202402132047137_Produto1.cs" />
+    <Compile Include="Migrations\202402132047137_Produto1.Designer.cs">
+      <DependentUpon>202402132047137_Produto1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Pedido.cs" />
+    <Compile Include="Produto.cs" />
     <Compile Include="Cliente.cs" />
     <Compile Include="ClienteContext.cs" />
     <Compile Include="Program.cs" />
@@ -105,6 +113,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202402132023206_ClienteCpf.resx">
       <DependentUpon>202402132023206_ClienteCpf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202402132033035_Produto.resx">
+      <DependentUpon>202402132033035_Produto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202402132047137_Produto1.resx">
+      <DependentUpon>202402132047137_Produto1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
